@@ -81,7 +81,6 @@
       background-color: #f0f0f0;
     }
     .hidden { display: none; }
-
 footer {
   position: fixed;
   bottom: 0;
@@ -112,14 +111,13 @@ footer {
 
 
 
- 
   </style>
 </head>
 <body>
 <!-- Login Section -->
 <div id="login-page" style="text-align: center; padding: 50px; background-color: #a5d6a7; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 300px; margin: 50px auto; border: 3px solid #4caf50;">
   <div class="logo">
-    <img src="https://i.imgur.com/uWrz8rt.png" alt="School Logo" class="logo-img" style="width: 250px; margin-bottom: 20px;">
+    <img src="https://i.imgur.com/Mv4fLKU.png " alt="School Logo" class="logo-img" style="width: 250px; margin-bottom: 20px;">
   </div>
   
   <h1 style="color: #0056b3; font-size: 28px; font-weight: bold;">RASM Smart School Timetable Generator</h1>
@@ -142,7 +140,7 @@ footer {
   <!-- School Name and Logout Button -->
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <h2 style="margin: 0; font-size: 24px; font-weight: bold; color: #2c3e50; display: flex; align-items: center;">
-      <img src="https://i.imgur.com/uWrz8rt.png" alt="School Logo" style="height: 150px; margin-right: 12px;">
+      <img src=" https://i.imgur.com/Mv4fLKU.png" alt="School Logo" style="height: 170px; margin-right: 12px;">
       NACHU  PRIMARY SCHOOL 
     </h2>
     <button onclick="logout()" style="background-color: #f44336; color: white; padding: 10px 20px; border-radius: 8px; font-size: 16px; border: none; cursor: pointer;">
@@ -229,24 +227,30 @@ footer {
 
       <select id="assign-grade">
         <option disabled selected>Select Grade</option>
-         <option value="1">Grade 1</option>
-<option value="1Red">Grade 1 Red</option>
-<option value="1Blue">Grade 1 Blue</option>
-<option value="1Green">Grade 1 Green</option>
-<option value="1Yellow">Grade 1 Yellow</option>
-
-<option value="2">Grade 2</option>
-<option value="2Red">Grade 2 Red</option>
-<option value="2Blue">Grade 2 Blue</option>
-<option value="2Green">Grade 2 Green</option>
-<option value="2Yellow">Grade 2 Yellow</option>
-
-<option value="3">Grade 3</option>
-<option value="3Red">Grade 3 Red</option>
-<option value="3Blue">Grade 3 Blue</option>
-<option value="3Green">Grade 3 Green</option>
-<option value="3Yellow">Grade 3 Yellow</option>
-
+        <option value="4">Grade 4</option>
+        <option value="4A">Grade 4A</option>
+        <option value="4B">Grade 4B</option>
+        <option value="4C">Grade 4C</option>
+        <option value="5">Grade 5</option>
+        <option value="5A">Grade 5A</option>
+        <option value="5B">Grade 5B</option>
+        <option value="5C">Grade 5C</option>
+        <option value="6">Grade 6</option>
+        <option value="6A">Grade 6A</option>
+        <option value="6B">Grade 6B</option>
+        <option value="6C">Grade 6C</option>
+        <option value="7">Grade 7</option>
+        <option value="7A">Grade 7A</option>
+        <option value="7B">Grade 7B</option>
+        <option value="7C">Grade 7C</option>
+        <option value="8">Grade 8</option>
+        <option value="8A">Grade 8A</option>
+        <option value="8B">Grade 8B</option>
+        <option value="8C">Grade 8C</option>
+        <option value="9">Grade 9</option>
+        <option value="9A">Grade 9A</option>
+        <option value="9B">Grade 9B</option>
+        <option value="9C">Grade 9C</option>
       </select>
       <div id="subject-assignment"></div>
   <button onclick="saveAssignments()" style="background-color: #ff9800; color: white;">
@@ -263,24 +267,30 @@ footer {
   <h2 style="color: #2e7d32; text-align: center;">Select Grades to Generate Timetable</h2>
 
   <form id="grade-selector" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-   <label><input type="checkbox" name="grade" value="1"> Grade 1</label>
-<label><input type="checkbox" name="grade" value="1Red"> Grade 1 Red</label>
-<label><input type="checkbox" name="grade" value="1Blue"> Grade 1 Blue</label>
-<label><input type="checkbox" name="grade" value="1Green"> Grade 1 Green</label>
-<label><input type="checkbox" name="grade" value="1Yellow"> Grade 1 Yellow</label>
-
-<label><input type="checkbox" name="grade" value="2"> Grade 2</label>
-<label><input type="checkbox" name="grade" value="2Red"> Grade 2 Red</label>
-<label><input type="checkbox" name="grade" value="2Blue"> Grade 2 Blue</label>
-<label><input type="checkbox" name="grade" value="2Green"> Grade 2 Green</label>
-<label><input type="checkbox" name="grade" value="2Yellow"> Grade 2 Yellow</label>
-
-<label><input type="checkbox" name="grade" value="3"> Grade 3</label>
-<label><input type="checkbox" name="grade" value="3Red"> Grade 3 Red</label>
-<label><input type="checkbox" name="grade" value="3Blue"> Grade 3 Blue</label>
-<label><input type="checkbox" name="grade" value="3Green"> Grade 3 Green</label>
-<label><input type="checkbox" name="grade" value="3Yellow"> Grade 3 Yellow</label>
- 
+    <label><input type="checkbox" name="grade" value="4"> Grade 4</label>
+    <label><input type="checkbox" name="grade" value="4A"> Grade 4A</label>
+    <label><input type="checkbox" name="grade" value="4B"> Grade 4B</label>
+    <label><input type="checkbox" name="grade" value="4C"> Grade 4C</label>
+    <label><input type="checkbox" name="grade" value="5"> Grade 5</label>
+    <label><input type="checkbox" name="grade" value="5A"> Grade 5A</label>
+    <label><input type="checkbox" name="grade" value="5B"> Grade 5B</label>
+    <label><input type="checkbox" name="grade" value="5C"> Grade 5C</label>
+    <label><input type="checkbox" name="grade" value="6"> Grade 6</label>
+    <label><input type="checkbox" name="grade" value="6A"> Grade 6A</label>
+    <label><input type="checkbox" name="grade" value="6B"> Grade 6B</label>
+    <label><input type="checkbox" name="grade" value="6C"> Grade 6C</label>
+    <label><input type="checkbox" name="grade" value="7"> Grade 7</label>
+    <label><input type="checkbox" name="grade" value="7A"> Grade 7A</label>
+    <label><input type="checkbox" name="grade" value="7B"> Grade 7B</label>
+    <label><input type="checkbox" name="grade" value="7C"> Grade 7C</label>
+    <label><input type="checkbox" name="grade" value="8"> Grade 8</label>
+    <label><input type="checkbox" name="grade" value="8A"> Grade 8A</label>
+    <label><input type="checkbox" name="grade" value="8B"> Grade 8B</label>
+    <label><input type="checkbox" name="grade" value="8C"> Grade 8C</label>
+    <label><input type="checkbox" name="grade" value="9"> Grade 9</label>
+    <label><input type="checkbox" name="grade" value="9A"> Grade 9A</label>
+    <label><input type="checkbox" name="grade" value="9B"> Grade 9B</label>
+    <label><input type="checkbox" name="grade" value="9C"> Grade 9C</label>
   </form>
 </div>
 
@@ -309,24 +319,30 @@ footer {
 <h2 style="background-color: lightgreen; color: black; padding: 8px 12px; border-radius: 4px;">Step 2:Assign Subjects to Teachers  </h2>
        <select id="assign-grade">
         <option disabled selected>Select Grade</option>
-<option value="1">Grade 1</option>
-<option value="1Red">Grade 1 Red</option>
-<option value="1Blue">Grade 1 Blue</option>
-<option value="1Green">Grade 1 Green</option>
-<option value="1Yellow">Grade 1 Yellow</option>
-
-<option value="2">Grade 2</option>
-<option value="2Red">Grade 2 Red</option>
-<option value="2Blue">Grade 2 Blue</option>
-<option value="2Green">Grade 2 Green</option>
-<option value="2Yellow">Grade 2 Yellow</option>
-
-<option value="3">Grade 3</option>
-<option value="3Red">Grade 3 Red</option>
-<option value="3Blue">Grade 3 Blue</option>
-<option value="3Green">Grade 3 Green</option>
-<option value="3Yellow">Grade 3 Yellow</option>
-
+        <option value="4">Grade 4</option>
+        <option value="4A">Grade 4A</option>
+        <option value="4B">Grade 4B</option>
+        <option value="4C">Grade 4C</option>
+        <option value="5">Grade 5</option>
+        <option value="5A">Grade 5A</option>
+        <option value="5B">Grade 5B</option>
+        <option value="5C">Grade 5C</option>
+        <option value="6">Grade 6</option>
+        <option value="6A">Grade 6A</option>
+        <option value="6B">Grade 6B</option>
+        <option value="6C">Grade 6C</option>
+        <option value="7">Grade 7</option>
+        <option value="7A">Grade 7A</option>
+        <option value="7B">Grade 7B</option>
+        <option value="7C">Grade 7C</option>
+        <option value="8">Grade 8</option>
+        <option value="8A">Grade 8A</option>
+        <option value="8B">Grade 8B</option>
+        <option value="8C">Grade 8C</option>
+        <option value="9">Grade 9</option>
+        <option value="9A">Grade 9A</option>
+        <option value="9B">Grade 9B</option>
+        <option value="9C">Grade 9C</option>
       </select>
       <div id="subject-assignment"></div>
   <button onclick="saveAssignments()" style="background-color: #ff9800; color: white;">
@@ -391,16 +407,14 @@ Generate accurate class timetables per stream and get automatic teacher timetabl
 </footer>
 </body>
 
-
   <script>
    let teachers = [];
 const assignments = {};
 const subjects = {
-  fivePerWeek: ['English', 'Maths'],
-  fourPerWeek: ['Kiswahili', 'Environmental'],
-  threePerWeek: ['CRE'],
-  sixPerWeek: [], // No subjects currently at 6 per week
-  sevenPerWeek: ['Creative Activities'], // New custom category
+  fivePerWeek: ['English', 'Maths'], 
+  fourPerWeek: ['Kiswahili', 'Science & Technology', 'Agric & Nutrition'],
+  threePerWeek: ['CRE', 'Social Studies'],
+  sixPerWeek: ['Creative Arts'],
   onePerWeek: ['PPI']
 };
 
@@ -581,33 +595,29 @@ function showCustomAlert(message, color) {
       if (!teacherSchedule[tid]) teacherSchedule[tid] = {};
       teacherSchedule[tid][`${day}-P${period}`] = true;
     }
-
 function generateSchedule(grade) {
   const schedule = {};
   const assign = assignments[grade];
   if (!assign) return null;
 
   const mathPeriodsOnly = [0, 1, 3, 4, 6, 7]; // 8:00–12:55 periods
-  const allowedPeriodsFor = (subj) => subj === 'Mathematics' ? mathPeriodsOnly : null;
+const allowedPeriodsFor = (subj) => subj === 'Maths' ? mathPeriodsOnly : null;
+
 
   const assignedSubjects = [
-    ...(subjects.sevenPerWeek || []),
-    ...(subjects.sixPerWeek || []),
-    ...(subjects.fivePerWeek || []),
-    ...(subjects.fourPerWeek || []),
-    ...(subjects.threePerWeek || []),
-    ...(subjects.twoPerWeek || []),
-    ...(subjects.onePerWeek || [])
+    ...subjects.fivePerWeek, 
+    ...subjects.fourPerWeek, 
+    ...subjects.threePerWeek, 
+    ...subjects.sixPerWeek, 
+    ...subjects.onePerWeek
   ];
 
   const allSubjectsPerWeek = {};
-  if (subjects.sevenPerWeek) subjects.sevenPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 7);
-  if (subjects.sixPerWeek) subjects.sixPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 6);
-  if (subjects.fivePerWeek) subjects.fivePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 5);
-  if (subjects.fourPerWeek) subjects.fourPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 4);
-  if (subjects.threePerWeek) subjects.threePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 3);
-  if (subjects.twoPerWeek) subjects.twoPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 2);
-  if (subjects.onePerWeek) subjects.onePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 1);
+  subjects.fivePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 5);
+  subjects.fourPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 4);
+  subjects.threePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 3);
+  subjects.sixPerWeek.forEach(subj => allSubjectsPerWeek[subj] = 6);
+  subjects.onePerWeek.forEach(subj => allSubjectsPerWeek[subj] = 1);
 
   // Initialize schedule
   days.forEach(day => {
@@ -649,41 +659,46 @@ function generateSchedule(grade) {
   const subjectPlacedCount = {};
   assignedSubjects.forEach(s => subjectPlacedCount[s] = 0);
 
-  // STEP 0: Force PPI to be the first lesson on Friday
-  if (assign['PPI']) {
+  // ? HARD-CODE PPI to Friday 8:00 if assigned
+  if (subjects.onePerWeek.includes('PPI') && assign['PPI']) {
     const tid = assign['PPI'];
-    const p = 0; // 8:00–8:40
-    if (!schedule['Fri'][p] && isFree(tid, 'Fri', p + 1)) {
-      schedule['Fri'][p] = `PPI (T${tid})`;
-      occupy(tid, 'Fri', p + 1);
+    if (!schedule['Fri'][0] && isFree(tid, 'Fri', 1)) {
+      schedule['Fri'][0] = `PPI (T${tid})`;
+      occupy(tid, 'Fri', 1);
       subjectPlacedCount['PPI'] = 1;
+    } else {
+      console.warn(`PPI could not be placed at Fri 8:00 for ${grade}`);
     }
   }
 
   // STEP 1: Place subjects based on frequency
-  Object.entries(allSubjectsPerWeek).forEach(([subj, maxCount]) => {
-    const tid = assign[subj];
-    if (!tid) return;
-    const avoid = {};
-    let count = subjectPlacedCount[subj] || 0;
+  Object.entries(subjects).forEach(([frequency, subjectList]) => {
+    subjectList.forEach(subj => {
+      if (subj === 'PPI') return; // Already handled
+      const tid = assign[subj];
+      const avoid = {};
+      let count = 0;
+      const maxCount = allSubjectsPerWeek[subj];
 
-    while (count < maxCount) {
-      const slot = findFreeSlotAvoidingPattern(tid, subj, avoid, allowedPeriodsFor(subj));
-      if (!slot) break;
-      schedule[slot.day][slot.period] = `${subj} (T${tid})`;
-      occupy(tid, slot.day, slot.period + 1);
-      avoid[slot.day] ??= [];
-      avoid[slot.day].push(slot.period);
-      subjectPlacedCount[subj]++;
-      count++;
-    }
+      while (count < maxCount) {
+        const slot = findFreeSlotAvoidingPattern(tid, subj, avoid, allowedPeriodsFor(subj));
+        if (!slot) break;
+        schedule[slot.day][slot.period] = `${subj} (T${tid})`;
+        occupy(tid, slot.day, slot.period + 1);
+        avoid[slot.day] ??= [];
+        avoid[slot.day].push(slot.period);
+        subjectPlacedCount[subj]++;
+        count++;
+      }
+    });
   });
 
-  // STEP 2: Fill remaining empty lessons with under-assigned subjects
+  // STEP 2: Fill any remaining empty lessons with under-assigned subjects only
   for (let day of days) {
     for (let p of lessonSlots) {
       if (!schedule[day][p]) {
         for (let subj of assignedSubjects) {
+          if (subj === 'PPI' && schedule['Fri'][0]?.includes('PPI')) continue; // Only one PPI
           const tid = assign[subj];
           const maxCount = allSubjectsPerWeek[subj];
           const allowed = allowedPeriodsFor(subj);
@@ -704,17 +719,17 @@ function generateSchedule(grade) {
     }
   }
 
-  // STEP 3: Final fill pass for remaining blanks
+  // STEP 3: Final sweep to fill any remaining blanks safely
   for (let day of days) {
     for (let p of lessonSlots) {
       if (!schedule[day][p]) {
         for (let subj of assignedSubjects) {
+          if (subj === 'PPI' && schedule['Fri'][0]?.includes('PPI')) continue;
           const tid = assign[subj];
           const maxCount = allSubjectsPerWeek[subj];
           const allowed = allowedPeriodsFor(subj);
           if (
             subjectPlacedCount[subj] < maxCount &&
-            isFree(tid, day, p + 1) &&
             (!allowed || allowed.includes(p))
           ) {
             schedule[day][p] = `${subj} (T${tid})`;
@@ -727,7 +742,7 @@ function generateSchedule(grade) {
     }
   }
 
-  // STEP 4: Resolve teacher conflicts
+  // STEP 4: Resolve teacher conflicts if any
   const teacherMap = {};
   for (let d of days) {
     for (let p of lessonSlots) {
@@ -766,6 +781,7 @@ function generateSchedule(grade) {
 }
 
 
+
 function generateCombinedTimetable() {
   const output = document.getElementById('combined-timetable');
   output.innerHTML = '';
@@ -782,76 +798,96 @@ function generateCombinedTimetable() {
   selected.forEach(grade => {
     allSchedules[grade] = generateSchedule(grade);
   });
+const wrapper = document.createElement('div');
+wrapper.className = 'mb-8 p-4 border shadow-md rounded-2xl bg-white overflow-auto';
 
-  const wrapper = document.createElement('div');
-  wrapper.className = 'mb-8 p-4 border shadow-md rounded-2xl bg-white overflow-auto';
+// ?? Define row colors per grade (will cycle through if more grades than colors)
+const gradeColors = [
+  '#f8f9fa', // light gray
+  '#e0f7fa', // cyan
+  '#f1f8e9', // light green
+  '#fff3e0', // orange
+  '#fce4ec', // pink
+  '#ede7f6', // light purple
+  '#e8f5e9', // mint
+  '#fffde7', // yellow
+  '#e3f2fd', // light blue
+];
 
-  let html = `
-    <style>
-      #combined-timetable table, 
-      #combined-timetable th, 
-      #combined-timetable td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-      #combined-timetable th, 
-      #combined-timetable td {
-        padding: 8px;
-        text-align: center;
-      }
-      #combined-timetable thead {
-        background-color: #f1f1f1;
-        font-weight: bold;
-      }
-      .break-cell {
-        background-color: #ffeeba;
-      }
-      .lunch-cell {
-        background-color: #c3e6cb;
-      }
-      .games-cell {
-        background-color: #bee5eb;
-      }
-    </style>
+let html = `
+  <style>
+    #combined-timetable table, 
+    #combined-timetable th, 
+    #combined-timetable td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    #combined-timetable th, 
+    #combined-timetable td {
+      padding: 8px;
+      text-align: center;
+    }
+    #combined-timetable thead {
+      background-color: #f1f1f1;
+      font-weight: bold;
+    }
+    .break-cell {
+      background-color: #ffeeba;
+    }
+    .lunch-cell {
+      background-color: #c3e6cb;
+    }
+    .games-cell {
+      background-color: #bee5eb;
+    }
+  </style>
 
-    <div class="flex justify-between items-center mb-4">
-      <h3 class="text-xl font-bold text-white bg-red-600 px-4 py-2 rounded shadow-md">
-        <i class="fas fa-calendar-alt mr-2"></i> Generated Master Timetable Is Here
-      </h3>
-    </div>
+  <div class="flex justify-between items-center mb-4">
+    <h3 class="text-xl font-bold text-white bg-red-600 px-4 py-2 rounded shadow-md">
+      <i class="fas fa-calendar-alt mr-2"></i> Generated Master Timetable Is Here
+    </h3>
+  </div>
 
-    <table class="w-full text-sm">
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Grade</th>`;
+  <table class="w-full text-sm">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Grade</th>`;
 
-  periods.forEach(t => {
-    html += `<th>${t}</th>`;
-  });
+periods.forEach(t => {
+  html += `<th>${t}</th>`;
+});
 
-  html += `</tr></thead><tbody>`;
+html += `</tr></thead><tbody>`;
 
-  days.forEach(day => {
-    Object.entries(allSchedules).forEach(([grade, schedule]) => {
-      html += `<tr><td>${day}</td><td>${grade}</td>`;
-      schedule[day].forEach(subject => {
-        const lower = subject.toLowerCase();
-        let cellClass = '';
-        if (lower.includes('break')) cellClass = 'break-cell';
-        else if (lower.includes('lunch')) cellClass = 'lunch-cell';
-        else if (lower.includes('games')) cellClass = 'games-cell';
-        html += `<td class="${cellClass}">${subject}</td>`;
-      });
-      html += `</tr>`;
+// ?? Color each grade consistently using color index
+const gradeColorMap = {};
+let colorIndex = 0;
+Object.keys(allSchedules).forEach(grade => {
+  gradeColorMap[grade] = gradeColors[colorIndex % gradeColors.length];
+  colorIndex++;
+});
+
+days.forEach(day => {
+  Object.entries(allSchedules).forEach(([grade, schedule]) => {
+    const bgColor = gradeColorMap[grade];
+    html += `<tr style="background-color: ${bgColor};"><td>${day}</td><td>${grade}</td>`;
+    schedule[day].forEach(subject => {
+      const lower = subject.toLowerCase();
+      let cellClass = '';
+      if (lower.includes('break')) cellClass = 'break-cell';
+      else if (lower.includes('lunch')) cellClass = 'lunch-cell';
+      else if (lower.includes('games')) cellClass = 'games-cell';
+      html += `<td class="${cellClass}">${subject}</td>`;
     });
+    html += `</tr>`;
   });
+});
 
-  html += `</tbody></table>`;
-  wrapper.innerHTML = html;
-  output.appendChild(wrapper);
+html += `</tbody></table>`;
+wrapper.innerHTML = html;
+output.appendChild(wrapper);
 }
-
 function showCustomAlert(message, color) {
   const alertBox = document.createElement('div');
   alertBox.className = 'custom-alert';
@@ -880,31 +916,33 @@ function showCustomAlert(message, color) {
     alertBox.remove();
   }, 3000);
 }
-
-
 function printCombinedTimetable() {
   const term = document.getElementById("term-selector")?.value || "Term 1";
-  const logoURL = "https://i.imgur.com/uWrz8rt.png"; // Replace with your actual logo path
+  const logoURL = " https://i.imgur.com/Mv4fLKU.png";
 
   const headerHTML = `
     <div style="text-align:center; margin-bottom: 20px;">
       <img src="${logoURL}" alt="School Logo" style="height: 80px; margin-bottom: 10px;"><br>
-      <h2 style="margin: 0; font-family: Arial;">NACHU PRIMARY  SCHOOL</h2>
-      <h3 style="margin: 0; font-family: Arial;">MASTER TIMETABLE 2025</h3>
-      <p style="font-family: Arial;"><strong>TERM:</strong> ${term}</p>
+      <h2 style="margin: 0; font-family: Arial; color: black;">NACHU PRIMARY SCHOOL</h2>
+      <h3 style="margin: 0; font-family: Arial; color: black;">MASTER TIMETABLE 2025</h3>
+      <p style="font-family: Arial; color: black;"><strong>TERM:</strong> ${term}</p>
     </div>
   `;
 
-  // Get the timetable HTML
-  const timetable = document.getElementById('combined-timetable');
+  const footerHTML = `
+    <div style="margin-top: 30px; text-align: center; font-size: 12px; font-family: Arial; color: black;">
+      <hr style="margin: 20px auto; border: none; border-top: 1px solid #000; width: 80%;">
+      <strong>POWERED BY RASM TECHNOLOGIES - YOUR NUMBER ONE SCHOOL MANAGEMENT SOFTWARE</strong>
+    </div>
+  `;
 
-  // Clone and apply inline styles
+  const timetable = document.getElementById('combined-timetable');
   const clonedTable = timetable.cloneNode(true);
   clonedTable.setAttribute("style", "width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12pt;");
 
   const ths = clonedTable.querySelectorAll("th");
   ths.forEach(th => {
-    th.setAttribute("style", "background-color: #4CAF50; color: white; border: 1px solid #333; padding: 6px; text-align: center;");
+    th.setAttribute("style", "background-color: #4CAF50; color: black; border: 1px solid #333; padding: 6px; text-align: center;");
   });
 
   const tds = clonedTable.querySelectorAll("td");
@@ -915,21 +953,21 @@ function printCombinedTimetable() {
     else if (text === "lunch") bg = "#ffeeba";
     else if (text === "games") bg = "#ffeeba";
 
-    td.setAttribute("style", `border: 1px solid #333; padding: 6px; text-align: center; font-family: Arial;${bg ? " background-color: " + bg + "; font-weight: bold;" : ""}`);
+    td.setAttribute("style", `color: black; border: 1px solid #333; padding: 6px; text-align: center; font-family: Arial;${bg ? " background-color: " + bg + "; font-weight: bold;" : ""}`);
   });
 
-  // Open new window for printing
   const printWindow = window.open('', '', 'height=900,width=1200');
   printWindow.document.write('<html><head><title>Print Timetable</title></head><body style="margin:0; padding:20px;">');
   printWindow.document.write(headerHTML);
   printWindow.document.write(clonedTable.outerHTML);
+  printWindow.document.write(footerHTML);
   printWindow.document.write('</body></html>');
-
   printWindow.document.close();
   printWindow.focus();
   printWindow.print();
   printWindow.close();
 }
+
 function toggleGradeSelector() {
     const container = document.getElementById("grade-container");
     container.style.display = (container.style.display === "none") ? "block" : "none";
@@ -1188,6 +1226,7 @@ function extractFromCombinedTimetable() {
       </div>`;
   }
 }
+
 function showAlert(message, type = "error") {
   const alertBox = document.createElement("div");
 
@@ -1245,6 +1284,7 @@ function showAlert(message, type = "error") {
   }, 3000);
 }
 
+
 function buildTable(schedule, headers) {
   let html = `<div style="overflow-x:auto;"><table style="border-collapse: collapse; width: 100%; font-size: 12px;"><thead><tr><th style="border: 1px solid #000; padding: 6px;">Day</th>`;
   headers.forEach(h => {
@@ -1263,20 +1303,26 @@ function buildTable(schedule, headers) {
   html += '</tbody></table></div>';
   return html;
 }
-
- function printThisTimetable(button) {
+function printThisTimetable(button) {
   const timetableBlock = button.closest(".extracted-block").cloneNode(true);
   timetableBlock.querySelector("button").remove();
 
-  const logoURL = "https://i.imgur.com/uWrz8rt.png";
+  const logoURL = "https://i.imgur.com/Mv4fLKU.png ";
   const headerText = timetableBlock.querySelector("h3")?.innerText || "Timetable";
   const isClass = headerText.toLowerCase().includes("class timetable");
 
   const headerHTML = `
     <div style="text-align: center; margin-bottom: 20px;">
       <img src="${logoURL}" style="height: 80px; margin-bottom: 10px;"><br>
-      <h2 style="margin: 0; font-size: 24px; font-family: Arial; font-weight: bold;">NACHU PRIMARY  SCHOOL</h2>
-      <h3 style="margin: 0; font-size: 18px; font-family: Arial; font-weight: bold;">${headerText}</h3>
+      <h2 style="margin: 0; font-size: 24px; font-family: Arial; font-weight: bold; color: black;">NACHU PRIMARY SCHOOL</h2>
+      <h3 style="margin: 0; font-size: 18px; font-family: Arial; font-weight: bold; color: black;">${headerText}</h3>
+    </div>
+  `;
+
+  const footerHTML = `
+    <div style="margin-top: 30px; text-align: center; font-size: 12px; font-family: Arial; color: black;">
+      <hr style="margin: 20px auto; border: none; border-top: 1px solid #000; width: 80%;">
+      <strong>POWERED BY RASM TECHNOLOGIES - YOUR NUMBER ONE SCHOOL MANAGEMENT SOFTWARE</strong>
     </div>
   `;
 
@@ -1286,9 +1332,10 @@ function buildTable(schedule, headers) {
   table.style.borderCollapse = "collapse";
   table.style.fontFamily = "Arial, sans-serif";
   table.style.fontSize = "12pt";
-  table.style.tableLayout = "fixed"; // Important to make it fit
+  table.style.tableLayout = "fixed";
   table.style.wordWrap = "break-word";
   table.style.overflowWrap = "break-word";
+  table.style.color = "black";
 
   table.querySelectorAll("th").forEach(th => {
     th.style.border = "2px solid black";
@@ -1296,6 +1343,7 @@ function buildTable(schedule, headers) {
     th.style.fontWeight = "bold";
     th.style.backgroundColor = "#f1f1f1";
     th.style.textAlign = "center";
+    th.style.color = "black";
   });
 
   table.querySelectorAll("td").forEach(td => {
@@ -1304,6 +1352,7 @@ function buildTable(schedule, headers) {
     td.style.textAlign = "center";
     td.style.wordWrap = "break-word";
     td.style.overflowWrap = "break-word";
+    td.style.color = "black";
   });
 
   const printCSS = `
@@ -1316,19 +1365,22 @@ function buildTable(schedule, headers) {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 20px;
+        color: black;
       }
       table {
         width: 100%;
         table-layout: fixed;
+        color: black;
       }
       th, td {
         word-wrap: break-word;
         overflow-wrap: break-word;
+        color: black;
       }
       ${isClass ? `
         .print-block {
           page-break-inside: avoid;
-          transform: scale(0.98); /* Subtle shrink to fit page */
+          transform: scale(0.98);
           transform-origin: top left;
         }
       ` : ''}
@@ -1337,13 +1389,14 @@ function buildTable(schedule, headers) {
 
   const printWindow = window.open('', '', 'width=1000,height=800');
   printWindow.document.write(`<html><head><title>Print Timetable</title>${printCSS}</head><body>`);
-  printWindow.document.write(`<div class="print-block">${headerHTML}${timetableBlock.innerHTML}</div>`);
+  printWindow.document.write(`<div class="print-block">${headerHTML}${timetableBlock.innerHTML}${footerHTML}</div>`);
   printWindow.document.write('</body></html>');
   printWindow.document.close();
   printWindow.focus();
   printWindow.print();
   printWindow.close();
 }
+
 </script>
  
 </body>
